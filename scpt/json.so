@@ -1,0 +1,2 @@
+termapp=`cat $conj| jq -r '.[]|select(.term).term'`
+label=`cat $conj| jq -r '.[]|select(.label).label'`

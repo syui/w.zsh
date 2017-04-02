@@ -1,0 +1,7 @@
+export d=${0:a:h}
+export l=${0:a:h:h}
+export json=$l/json
+export conf=~/.config/w.zsh
+export conj=$conf/config.json
+export scpt=$d
+export tmpj=$json/tmp.json
